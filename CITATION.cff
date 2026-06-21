@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "CiSS Financeiro — Circular Sustainability Scorecard (Setor Financeiro)"
+abstract: >
+  Computational algorithm adapting the Circular Sustainability Scorecard (CiSS)
+  to the financial sector, with illustrative application to a regional development
+  bank (BASA). Three MBL dimensions: Economic-Financial, Socio-environmental,
+  Governance (ESG). Includes natural-log normalization and Balanced Scorecard
+  mapping layer. Submitted as Appendix A to EnANPAD 2026.
+authors:
+  - family-names: "SEU SOBRENOME"
+    given-names: "SEU NOME"
+    orcid: "https://orcid.org/SEU-ORCID"
+    affiliation: "Universidade Federal de Pernambuco — UFPE"
+repository-code: "https://github.com/SEU_USUARIO/ciss-financeiro-circular-sustainability-scorecard"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-06-21"
+keywords:
+  - circular economy
+  - financial sector sustainability
+  - ESG
+  - Gini coefficient
+  - Lorenz curve
+  - Balanced Scorecard
+  - Python
+references:
+  - type: article
+    authors:
+      - family-names: "Porto"
+        given-names: "R. L."
+    title: "Circular Sustainability Scorecard (CiSS)"
+    year: 2021
+    institution:
+      name: "Universidade Federal de Pernambuco"
+  - type: conference-paper
+    title: "Conceitos e desafios na mensuração da Sustentabilidade Circular"
+    year: 2026
+    conference:
+      name: "EnANPAD 2026"
