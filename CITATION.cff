@@ -9,10 +9,10 @@ abstract: >
   Governance (ESG). Includes natural-log normalization and Balanced Scorecard
   mapping layer. Submitted as Appendix A to EnANPAD 2026.
 authors:
-  - family-names: "SEU SOBRENOME"
-    given-names: "SEU NOME"
-    orcid: "https://orcid.org/SEU-ORCID"
-    affiliation: "Universidade Federal de Pernambuco — UFPE"
+  - family-names: "SOUZA"
+    given-names: "ISABELLY CAROLINE GASK DE"
+    orcid: "https://orcid.org/0000-0002-3289-8770"
+    affiliation: "Universidade Federal de Rondônia — UNIR"
 repository-code: "https://github.com/SEU_USUARIO/ciss-financeiro-circular-sustainability-scorecard"
 license: CC-BY-4.0
 version: "1.0.0"
@@ -28,8 +28,8 @@ keywords:
 references:
   - type: article
     authors:
-      - family-names: "Porto"
-        given-names: "R. L."
+      - family-names: "Souza"
+        given-names: "I. C. G."
     title: "Circular Sustainability Scorecard (CiSS)"
     year: 2021
     institution:
