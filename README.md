@@ -30,3 +30,22 @@ python ciss_financeiro.py --save fig.png  # saves chart as PNG
 
 ## License
 Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+## Versões do script
+
+| Arquivo | Situação | Descrição |
+|---|---|---|
+| `CiSS_BASA_V3.py` | **Atual (v1.1.0)** | Normalização pela média do período com correção de polaridade; composição constante das perspectivas; CiSS = 1 − Gini (0 a 1); especificações de robustez A–D; gera tabelas (Excel) e figuras (PNG/TIF, 300 dpi, P&B). |
+| `CiSS_BASA_V2.py` | Anterior (v1.0.x) | Mantido para reprodutibilidade dos resultados da dissertação e dos congressos. Equivale à especificação D da V3. Requer a planilha `COMPARATIVO BSC BASA ISA.xlsx`. |
+
+### Como executar a V3
+    pip install -r requirements.txt
+    python CiSS_BASA_V3.py              # tabelas + figuras (exibidas e salvas)
+    python CiSS_BASA_V3.py --sem-exibir # salva as figuras sem abrir janelas
+    python CiSS_BASA_V3.py --sem-figuras
+
+No Python/Spyder:
+    import runpy
+    runpy.run_path(r"caminho\para\CiSS_BASA_V3.py", run_name="__main__")
+
+Os dados de entrada (Relatórios do Banco da Amazônia, 2021–2024) estão embutidos no script.
