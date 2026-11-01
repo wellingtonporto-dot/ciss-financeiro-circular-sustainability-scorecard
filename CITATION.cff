@@ -1,41 +1,49 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software or data, please cite it as below."
 type: software
-title: "CiSS Financeiro — Circular Sustainability Scorecard (Setor Financeiro)"
-abstract: >
-  Computational algorithm adapting the Circular Sustainability Scorecard (CiSS)
-  to the financial sector, with illustrative application to a regional development
-  bank (BASA). Three MBL dimensions: Economic-Financial, Socio-environmental,
-  Governance (ESG). Includes natural-log normalization and Balanced Scorecard
-  mapping layer. Submitted as Appendix A to EnANPAD 2026.
-authors:
-  - family-names: "SOUZA"
-    given-names: "ISABELLY CAROLINE GASK DE"
-    orcid: "https://orcid.org/0000-0002-3289-8770"
-    affiliation: "Universidade Federal de Rondônia — UNIR"
-repository-code: "https://github.com/SEU_USUARIO/ciss-financeiro-circular-sustainability-scorecard"
-license: CC-BY-4.0
-version: "1.1.0"
-date-released: "2026-09-25"
+title: "CiSS Financial – Circular Sustainability Scorecard for the Financial Sector"
+version: 2.0.0
+date-released: 2026-11-01
+license:
+  - MIT
+  - CC-BY-4.0
+doi: 10.5281/zenodo.20786996
+repository-artifact: "https://doi.org/10.5281/zenodo.20786996"
+abstract: >-
+  Algorithm and data for measuring circular sustainability in financial
+  institutions. The CiSS (Circular Sustainability Scorecard) measures the
+  balance among economic-financial, socio-environmental and governance
+  dimensions through the Lorenz curve and the Gini coefficient, with
+  polarity-adjusted ratio-to-mean normalization. Includes an illustrative
+  application to Banco da Amazônia, 2021–2024.
 keywords:
-  - circular economy
-  - financial sector sustainability
-  - ESG
+  - circular sustainability
+  - sustainable finance
+  - development banks
   - Gini coefficient
-  - Lorenz curve
-  - Balanced Scorecard
-  - Python
+  - Sustainable Balanced Scorecard
+  - Amazon
+authors:
+  - family-names: Souza
+    given-names: Isabelly Caroline Gask de
+    affiliation: "Universidade Federal de Rondônia (UNIR), PPGAC"
+    orcid: "https://orcid.org/0000-0002-3289-8770"
+  - family-names: Porto
+    given-names: Wellington Silva
+    affiliation: "Universidade Federal de Rondônia (UNIR), PPGAC"
+    orcid: "https://orcid.org/0000-0002-0289-9422"
+    email: wsporto@unir.br
+  - family-names: Souza
+    given-names: José Arilson de
+    affiliation: "Universidade Federal de Rondônia (UNIR), PPGAC"
+    orcid: "https://orcid.org/0000-0002-8416-9529"
 references:
-  - type: article
+  - type: thesis
+    title: "CiSS – Circular Sustainability Scorecard: desafios e perspectivas de uma métrica integrada para sustentabilidade circular"
     authors:
-      - family-names: "Souza"
-        given-names: "I. C. G."
-    title: "Circular Sustainability Scorecard (CiSS)"
+      - family-names: Porto
+        given-names: Wellington Silva
     year: 2021
     institution:
       name: "Universidade Federal de Pernambuco"
-  - type: conference-paper
-    title: "Conceitos e desafios na mensuração da Sustentabilidade Circular"
-    year: 2026
-    conference:
-      name: "EnANPAD 2026"
+    thesis-type: "Doctoral dissertation"
