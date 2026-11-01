@@ -94,7 +94,7 @@ ChatGPT (OpenAI) helped write earlier versions of the code. Claude (Anthropic) w
 
 See `CITATION.cff`, or cite as:
 
-Souza, I. C. G. de, Porto, W. S., & Souza, J. A. de. (2026). *CiSS Financial – Circular Sustainability Scorecard for the Financial Sector* (Version 2.0.0) [Computer software and dataset]. Zenodo. https://doi.org/[DOI of version 2.0.0]
+Souza, I. C. G. de, Porto, W. S., & Souza, J. A. de. (2026). *CiSS Financial – Circular Sustainability Scorecard for the Financial Sector* (Version 2.0.0) [Computer software and dataset]. Zenodo. https://doi.org/10.5281/zenodo.23852741
 
 ## Reference
 
