@@ -13,7 +13,7 @@ This repository contains the algorithm and the data of the illustrative applicat
 | `CiSS_Financial_v2_results.xlsx` | Expected results: indicators, CiSS by year, robustness checks and BSC perspective scores. |
 | `requirements.txt` | Python dependencies. |
 | `CITATION.cff` | How to cite this repository. |
-| `LICENSE` | MIT for the code; CC BY 4.0 for the data and documentation. |
+| `LICENSE` | Creative Commons Attribution 4.0 International (CC BY 4.0), as in earlier versions. |
 
 ## How to run
 
@@ -66,12 +66,25 @@ All reports are publicly available at <https://ri.bancoamazonia.com.br>.
 - **Efficiency ratio, 2023.** Not reported, so it is skipped in the mean.
 - **Scope 3 emissions.** The values cover the bank's operations only, not the emissions it finances.
 
-## Changes from version 1.0.0
+## Changes from earlier versions
 
 - Normalization by the natural logarithm, with percentages left untransformed, was replaced by a polarity-adjusted ratio-to-mean normalization. The old rule mixed scales and ignored polarity; it is kept as robustness specification D.
 - Indicators are now mapped explicitly to three dimensions and five BSC perspectives, instead of being matched by keywords.
 - The CiSS is computed as (1/n) Σ (Φᵢ₋₁ + Φᵢ) = 1 − Gini. Computing it as the area under the Lorenz curve, as a numerical `trapz` routine does, halves the index.
 - Added the illustrative application to BASA, with capital-allocation indicators and robustness specifications.
+
+## Previous versions in this repository
+
+Earlier scripts are kept in the repository so that the results of earlier studies remain reproducible. Each release and its Zenodo version keep a fixed copy of the code used at that time.
+
+| File | Release | Used in | Method |
+|---|---|---|---|
+| `CiSS_Financial_v2.py` | **v2.0.0 (current)** | *Beyond ESG Disclosure* (under review) | Ratio-to-mean normalization with polarity, 3 MBL dimensions, CiSS = 1 − Gini, capital-allocation indicators |
+| `CiSS_BASA_V3.py` (+ `Figura1–3` .png/.tif) | v1.1.0 | Empirical study of Banco da Amazônia (conference paper; under review in another journal) | Ratio-to-mean normalization with polarity, 5 Sustainable BSC perspectives, CiSS = 1 − Gini, robustness specifications A–D |
+| `CiSS_BASA_V2.py` | v1.0.2 | Dissertation and conference results | Natural log and raw percentages (equivalent to specification D of V3); requires the spreadsheet `COMPARATIVO BSC BASA ISA.xlsx`, not included |
+| `ciss_financeiro.py` (+ `lorenz_ciss_financeiro.png`) | v1.0.0 | EnANPAD 2026 paper (Appendix A) | Conceptual demo with illustrative data |
+
+To use the exact code of an earlier study, download the corresponding release on GitHub or the corresponding version on Zenodo.
 
 ## Use of AI tools
 
@@ -81,7 +94,7 @@ ChatGPT (OpenAI) helped write earlier versions of the code. Claude (Anthropic) w
 
 See `CITATION.cff`, or cite as:
 
-Souza, I. C. G. de, Porto, W. S., & Souza, J. A. de. (2026). *CiSS Financial – Circular Sustainability Scorecard for the Financial Sector* (Version 2.0.0) [Computer software and dataset]. Zenodo. https://doi.org/10.5281/zenodo.20786996
+Souza, I. C. G. de, Porto, W. S., & Souza, J. A. de. (2026). *CiSS Financial – Circular Sustainability Scorecard for the Financial Sector* (Version 2.0.0) [Computer software and dataset]. Zenodo. https://doi.org/[DOI of version 2.0.0]
 
 ## Reference
 

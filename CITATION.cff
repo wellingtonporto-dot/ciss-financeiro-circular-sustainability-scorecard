@@ -4,11 +4,8 @@ type: software
 title: "CiSS Financial – Circular Sustainability Scorecard for the Financial Sector"
 version: 2.0.0
 date-released: 2026-11-01
-license:
-  - MIT
-  - CC-BY-4.0
-doi: 10.5281/zenodo.20786996
-repository-artifact: "https://doi.org/10.5281/zenodo.20786996"
+license: CC-BY-4.0
+repository-code: "https://github.com/wellingtonporto-dot/ciss-financeiro-circular-sustainability-scorecard"
 abstract: >-
   Algorithm and data for measuring circular sustainability in financial
   institutions. The CiSS (Circular Sustainability Scorecard) measures the
